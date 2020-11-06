@@ -12,3 +12,16 @@ services:
     ports:
       - "15672:15672"
       - "5672:5672"
+
+    servicea:
+      image: "matheuscarvalho95/servicea:latest"
+    ports:
+      - "9091:9191"
+
+    serviceb:
+      image: "matheuscarvalho95/serviceb:latest" 
+
+    servicec:
+      image:"matheuscarvalho95/servicec:latest"   
+    ports: 
+      -"9092:9092"  
